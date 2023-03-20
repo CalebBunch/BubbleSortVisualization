@@ -249,8 +249,10 @@ def main():
 
         pygame.display.update()
 
+    force_quit()
+   
+def force_quit():
     pygame.quit()
-
     sys.exit()
 
 if __name__ == "__main__":
